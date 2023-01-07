@@ -2,6 +2,7 @@ import React from "react";
 // import ImageGallery from "./ImageGallery";
 import Imagegallery from "./Imagegallery/ImageGallery";
 
+
 const Hero = () => {
     return (
         <div class="container-fluid px-6  mx-auto  ">

@@ -22,7 +22,7 @@ const Imagegallery = () => {
         setDisplayData(filteredData);
     };
     return (
-        <div className="container px-6 py-10  mx-auto">
+        <div className="container px-6 py-10  mx-auto" id="Imagegallery">
             <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Portfolio
             </h1>
 

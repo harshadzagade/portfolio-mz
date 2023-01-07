@@ -2,9 +2,8 @@ import './App.css';
 import About from './components/About';
 import { Footer } from './components/Footer';
 import Hero from './components/Hero';
-import Imagegallery from './components/Imagegallery/ImageGallery';
 import Navbar from './components/Navbar';
-import Testimonial from './components/Testimonial/Testimonial';
+
 
 function App() {
   return (
