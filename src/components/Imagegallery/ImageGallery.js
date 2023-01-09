@@ -30,7 +30,7 @@ const Imagegallery = () => {
                 I am, a professional photographer and cinematographer with a talent for capturing unique and beautiful visuals.
             </p>
 
-            {/* <FilterButtons active={active} handleClick={handleCategoryClick} /> */}
+            <FilterButtons active={active} handleClick={handleCategoryClick} />
 
             <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-3 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
 
