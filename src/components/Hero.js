@@ -9,8 +9,9 @@ const Hero = () => {
 
             <div class="max-w-lg mx-auto text-center">
                 <h1 class="text-3xl font-ACFilmstrip  text-gray-800 dark:text-white lg:text-4xl ">Mrunmay Zagade</h1>
-                <p class="mt-6 text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero similique
-                    obcaecati illum mollitia.</p>
+                <p class="mt-6 text-gray-500 dark:text-gray-300">
+                    Are you in need of stunning photographs or captivating videos for your next event or project?
+                </p>
             </div>
 
             <div class="flex justify-center mt-10">

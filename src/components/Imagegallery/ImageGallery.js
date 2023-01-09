@@ -23,19 +23,19 @@ const Imagegallery = () => {
     };
     return (
         <div className="container px-6 py-10  mx-auto" id="Imagegallery">
-            <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Portfolio
+            <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white mt-8">Portfolio
             </h1>
 
-            <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+            <p class="mt-4 text-center  text-gray-500 dark:text-gray-300 mb-5">
+                I am, a professional photographer and cinematographer with a talent for capturing unique and beautiful visuals.
             </p>
 
-            <FilterButtons active={active} handleClick={handleCategoryClick} />
+            {/* <FilterButtons active={active} handleClick={handleCategoryClick} /> */}
 
             <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-3 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
 
                 {displayData.map(({ img }, i) => (
-                    <img src={img} className="justify-center bg-cover rounded-lg cursor-pointer h-96" alt="nothing" width="100%" />
+                    <img src={img} className="justify-center bg-cover rounded-lg cursor-pointer h-90" alt="nothing" width="100%" />
                 ))}
 
             </div>
